@@ -201,29 +201,14 @@ footer {
     font-size: 300%;
 }
 
-#barbarian {
-    width: 15%;
-    height: 300px
+#class-images {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 0px;
 }
 
-#druid {
-    width: 15%;
-    height: 300px
+#class-images a {
+    margin: 10px;
+    border: 2px solid black;
+    display: inline-block;
 }
-#paladin {
-    width: 15%;
-    height: 300px
-}
-#ranger {
-    width: 15%;
-    height: 300px
-}
-#rogue {
-    width: 15%;
-    height: 300px
-}
-#sorcerer {
-    width: 15%;
-    height: 300px
-} 
-
