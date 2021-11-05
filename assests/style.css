@@ -9,6 +9,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
+   /* background-image: radial-gradient(rgba(120,0,0),black); potential background color */
 }
 
 hr {
@@ -155,4 +156,24 @@ h2 {
 .adv-button a {
     text-decoration: none;
     color: #ffff;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials > li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
 }
