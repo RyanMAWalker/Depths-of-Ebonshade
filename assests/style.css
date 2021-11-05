@@ -54,3 +54,12 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #525252;
 }
+
+
+/* hero image */
+
+#hero-desktop {
+    height: 500px;
+    background-size: cover;
+    background: url(../assests/images/hero-1800.jpg) no-repeat center center;
+}
