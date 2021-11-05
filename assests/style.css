@@ -10,3 +10,47 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
 }
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: 'Baskervville', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: red;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+}
+
+/* Navigation bar */
+
+#menu {
+    float: right;
+    font-size: 140%;
+}
+
+#menu, #logo {
+    line-height: 100px;
+}
+
+#menu li {
+    text-align: right;
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #525252
+}
+
+.active {
+    border-bottom: 1px solid #525252;
+}
