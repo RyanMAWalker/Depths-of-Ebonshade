@@ -9,7 +9,8 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    /* background-image: radial-gradient(rgba(120,0,0),black); potential background color */
+    /* background-image: radial-gradient(rgba(120,0,0),black); 
+    color: #ffff; */
 }
 
 hr {
@@ -38,7 +39,6 @@ h2 {
 /* Navigation bar */
 .navbar {
     overflow: hidden;
-    background-color: rgba(105, 105, 105);
     position: fixed;
     top: 0;
     width: 100%;
@@ -96,6 +96,7 @@ h2 {
 
 #hero-desktop {
     height: 500px;
+    width: 100%;
     background-size: cover;
     background: url(../assests/images/hero-1800.jpg) no-repeat center center;
     z-index: 1;
@@ -189,3 +190,40 @@ footer {
     margin: 1%;
     padding: 5%;
 }
+
+/* character creation */
+
+#creation {
+    padding-top: 100px;
+}
+
+#creation h1 {
+    font-size: 300%;
+}
+
+#barbarian {
+    width: 15%;
+    height: 300px
+}
+
+#druid {
+    width: 15%;
+    height: 300px
+}
+#paladin {
+    width: 15%;
+    height: 300px
+}
+#ranger {
+    width: 15%;
+    height: 300px
+}
+#rogue {
+    width: 15%;
+    height: 300px
+}
+#sorcerer {
+    width: 15%;
+    height: 300px
+} 
+
