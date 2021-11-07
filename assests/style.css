@@ -124,6 +124,14 @@ h2 {
     position: absolute;
 }
 
+
+/* container for text body */
+
+.container {
+    margin: 0px 120px 0px 120px;
+    padding: 60px;
+}
+
 /* Begin adventure animated button */
 
 .adv-button {
