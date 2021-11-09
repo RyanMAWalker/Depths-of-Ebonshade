@@ -11,7 +11,7 @@ body {
     font-weight: 300;
     height: 100%;
     background-image: radial-gradient(rgba(120,0,0),black); 
-    color: #ffff; 
+    color: #ffff;
 }
 
 hr {
@@ -137,6 +137,12 @@ h2 {
 }
 
 
+#homepage {
+    background-color:rgba(82, 82, 82,) ;
+}
+
+
+
 
 /* Navigation bar */
 .navbar {
@@ -145,7 +151,7 @@ h2 {
     top: 0;
     width: 100%;
     z-index: 2;
-    background-color:rgb(82, 82, 82, 0.9);
+    background-color:rgba(82, 82, 82, 0.9);
 
 }
 
@@ -180,7 +186,7 @@ h2 {
 
 
 /* hero image & hero text commented out. Susperseded while testing new index page */
-/*
+
 #hero-outer {
     height: 500px;
     width: 100%;
@@ -227,14 +233,13 @@ h2 {
     position: absolute;
 }
 
-*/
-
 
 /* container for text body */
 
 .container {
     margin: 0px 120px 0px 120px;
     padding: 60px;
+    background-color: rgba(82, 82, 82);
 }
 
 
