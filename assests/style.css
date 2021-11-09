@@ -12,7 +12,7 @@ body {
     font-weight: 300;
     height: 100%;
     /* background-image: radial-gradient(rgba(120,0,0),black); */
-    background-color: rgba(53, 57, 53);    
+    background-color: rgba(53, 57, 53);
 }
 
 hr {
@@ -29,7 +29,7 @@ h1,
 h2 {
     font-family: 'Baskervville', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;    
+    letter-spacing: 2px;
 }
 
 #logo {
@@ -51,7 +51,7 @@ h2 {
 
     position: realtive;
     display: block;
-    
+
     background-size: cover;
     background-position: center;
 
@@ -89,18 +89,18 @@ h2 {
     border: none;
     width: 100%;
 
-    
-    background-color: rgba(102, 0, 0, 0.7);    
-    
+
+    background-color: rgba(102, 0, 0, 0.7);
+
     text-align: center;
     font-size: 150%;
 
     padding: 15px;
     margin-top: 15%;
-    
+
     transition: all 0.5s;
     cursor: pointer;
-    
+
 }
 
 .adv-button span {
@@ -183,7 +183,7 @@ h2 {
 
 .container {
     margin: 0px 120px 0px 120px;
-    padding: 60px;    
+    padding: 60px;
 }
 
 .column-container {
@@ -216,6 +216,33 @@ h2 {
 
 #features-spacing {
     margin-top: 250px;
+}
+
+/* Learn more button styling */
+
+.btn {
+    background-color:#5C676A;
+    border: 2px solid white;
+
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 12px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    cursor: pointer;
+
+    opacity: 0.8;
+    transition: 0.5s;
+
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+.btn:hover {
+    opacity: 1;
 }
 
 
@@ -327,7 +354,7 @@ footer {
 .class-image {
     margin: 10px;
     border: 2px solid black;
-    display: inline-block;     
+    display: inline-block;
 }
 
 .img-container {
