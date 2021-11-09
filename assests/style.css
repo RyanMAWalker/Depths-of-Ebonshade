@@ -10,7 +10,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     height: 100%;
-    background-image: radial-gradient(rgba(120,0,0),black); 
+    /* background-image: radial-gradient(rgba(120,0,0),black); */
+    background-color: rgba(53, 57, 53);
     color: #ffff;
 }
 
@@ -136,13 +137,20 @@ h2 {
     color: #ffff;
 }
 
-
+/*
 #homepage {
     background-color:rgba(82, 82, 82,) ;
 }
 
 
 /* Containers for home page */
+
+/* container for text body */
+
+.container {
+    margin: 0px 120px 0px 120px;
+    padding: 60px;    
+}
 
 .column-container {
     display: flex;
@@ -158,13 +166,24 @@ h2 {
 
 .features-column h2 {
     font-style: inherit;
-    font-size: 250%;
+    font-size: 180%;
 }
 
 .features-column p {
     font-style: inherit;
-    font-size: 150%;
+    font-size: 120%;
 }
+
+.left {
+    float: left;
+    padding: 0 20px 0 0;
+    height: 250px;
+}
+
+#features-spacing {
+    margin-top: 250px;
+}
+
 
 
 /* Navigation bar */
@@ -257,13 +276,7 @@ h2 {
 }
 
 
-/* container for text body */
 
-.container {
-    margin: 0px 120px 0px 120px;
-    padding: 60px;
-    background-color: rgba(82, 82, 82);
-}
 
 
 
