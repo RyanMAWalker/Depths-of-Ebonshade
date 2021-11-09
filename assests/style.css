@@ -37,21 +37,53 @@ h2 {
     font-size: 250%;
 }
 
-/* background image */
 
-.bg-image {
+/* homepage */
+
+/* background hero image */
+
+.bg-hero {
 
     background-image: url(../assests/images/bg-2560.jpg);
 
     width: 100%;
     height: 100vh;
 
-    position: absolute;
+    position: realtive;
     display: block;
     
     background-size: cover;
     background-position: center;
+
+    z-index: -1;
 }
+
+.content-container {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    width: 100%;
+    max-width: 400px;
+}
+
+.content {
+    text-align: center;
+    font-family: 'Baskervville', sans-serif;
+}
+
+.content h1 {
+    font-size: 300%;
+    color: #FFFFFF;
+    font-family: inherit;
+}
+
+.content p {
+    font-family: inherit;
+    color: ivory;
+    font-size: 150%;
+}
+
+
 
 /* Navigation bar */
 .navbar {
@@ -60,6 +92,7 @@ h2 {
     top: 0;
     width: 100%;
     z-index: 2;
+    background-color:rgb(82, 82, 82, 0.9);
 
 }
 
@@ -70,7 +103,7 @@ h2 {
 
 #menu,
 #logo {
-    line-height: 100px;
+    line-height: 10vh;
 }
 
 #menu li {
@@ -199,7 +232,7 @@ h2 {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 10px;
 }
 
 .socials {
