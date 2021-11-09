@@ -29,7 +29,7 @@ h2 {
     font-family: 'Baskervville', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black;
+    color: #FFFFFF
 }
 
 #logo {
@@ -142,6 +142,29 @@ h2 {
 }
 
 
+/* Containers for home page */
+
+.column-container {
+    display: flex;
+    width: 100%;
+}
+
+.features-column {
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.features-column h2 {
+    font-style: inherit;
+    font-size: 250%;
+}
+
+.features-column p {
+    font-style: inherit;
+    font-size: 150%;
+}
 
 
 /* Navigation bar */
