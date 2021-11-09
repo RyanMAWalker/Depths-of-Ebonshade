@@ -11,7 +11,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     height: 100%;
-    /* background-image: radial-gradient(rgba(120,0,0),black); */
+    background-image: radial-gradient(rgba(120,0,0),black);
     background-color: rgba(53, 57, 53);
 }
 
@@ -171,19 +171,15 @@ h2 {
     border-bottom: 1px solid #525252;
 }
 
-/*
-#homepage {
-    background-color:rgba(82, 82, 82,) ;
-}
-
 
 /* Containers for home page */
 
 /* container for text body */
 
 .container {
-    margin: 0px 120px 0px 120px;
-    padding: 60px;
+    margin: 0px 120px;
+    padding: 10px 0px;
+    background-color:rgba(53, 57, 53) ;
 }
 
 .column-container {
@@ -212,6 +208,13 @@ h2 {
     float: left;
     padding: 0 20px 0 0;
     height: 250px;
+}
+
+.bottom {
+    float: left;
+    padding: 0 20px 0 0;
+    height: 250px;
+    margin-top: 20px;
 }
 
 #features-spacing {
