@@ -25,6 +25,7 @@ hr {
     background-color: rgba(102, 0, 0);
 }
 
+
 /* headings and logo */
 
 h1,
@@ -277,6 +278,13 @@ footer {
     padding: 20px;
 }
 
+#copyright {       
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 150%;
+}
+
 /* media query for 1024px */
 
 @media (max-width: 1024px) {
@@ -314,7 +322,7 @@ footer {
     }
 
     .bottom {
-        display:none
+        display: none
     }
 
 }
@@ -479,7 +487,8 @@ footer {
 
 /* input style */
 
-input[type=text], [type=email],
+input[type=text],
+[type=email],
 select,
 textarea {
     width: 90%;
@@ -507,7 +516,7 @@ input[type=submit] {
     font-size: 150%;
 
     padding: 15px;
-    
+
     cursor: pointer;
     float: right;
 }
