@@ -54,36 +54,50 @@
 
 </section>
 
-<section>
-    <div class="contact">
+
+    <div class="contact-container">
         <div style="text-align: center;">
             <h2>
                 Contact Us
             </h2>
             <p>
-                For any further information or to gain access to a copy of the campaign please feel free to contact us below!
+                For any further information or to gain access to a copy of the campaign please feel free to fill out the form below! 
             </p>
         </div>
         <div class="row">
             <div class="column">
-              <form action="#">
-                <label for="fname">
-                    First Name
-                </label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                <label for="lname">
-                    Last Name
-                </label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                <label for="country">Country</label>
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write your message here, something like: Hey I think your campaign looks really cool could I have a copy of it?" style="height:170px"></textarea>
-                <input type="submit" value="Submit">
-              </form>
+                <form action="/action_page.php">
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="fname">First Name</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="lname">Last Name</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="subject">Your Message</label>
+                      </div>
+                      <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write your message here. E.g: I think your campaign looks really cool, I'd like to request a copy." style="height:200px"></textarea>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <input type="submit" value="Submit">
+                    </div>
+                  </form>
             </div>
           </div>
     </div>
-</section>
 
 <footer>
     <ul class="socials">
