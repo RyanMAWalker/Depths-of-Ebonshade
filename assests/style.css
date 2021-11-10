@@ -326,7 +326,7 @@ footer {
     z-index: -1;
 }
 
-#overview-cover-text {
+#banner-cover-text {
     position: absolute;
     top: 35%;
     left: 5%;
@@ -346,29 +346,16 @@ footer {
 
 /* character creation */
 
-#creation {
-    padding-top: 100px;
+#character-banner {
+    height: 40vh;
+    width: 100%;
+
+    background: url(../assests/images/shutterstock_1985983379\ \(4\)\ \(1\).jpg) no-repeat center top;
+
+    margin-top: 8vh;
+
+    z-index: -1;
 }
-
-#creation h1 {
-    font-size: 300%;
-}
-
-/*
-
-#class-images {
-    width: 1200px;
-    margin: 0 auto;
-    font-size: 0px;
-}
-
-#class-images a {
-    margin: 10px;
-    border: 2px solid black;
-    display: inline-block;
-}
-
-*/
 
 
 /* popup windows for class description */
