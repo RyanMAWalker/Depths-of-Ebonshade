@@ -68,7 +68,7 @@ h2 {
     top: 25%;
     left: 12%;
     width: 100%;
-    max-width: 450px;
+    max-width: 350px;
 }
 
 .content {
@@ -189,7 +189,7 @@ h2 {
 .container {
     margin: 0px 120px;
     padding: 10px 0px;
-    background-color: rgba(53, 57, 53);
+    background-color: black;
 }
 
 .column-container {
@@ -289,50 +289,6 @@ footer {
     font-size: 150%;
 }
 
-/* media query for 1024px */
-
-@media (max-width: 1024px) {
-    .container {
-        display: block;
-        margin: 0;
-        padding: 0;
-    }
-
-}
-
-/* media query for 768px */
-
-@media (max-width: 768px) {
-    .container {
-        display: block;
-        margin: 0;
-        padding: 0;
-
-        text-align: center;
-    }
-
-    .column-container {
-        display: block;
-    }
-
-    .features-column {
-        padding: 0;
-        margin: 0;
-        width: 100%;
-    }
-
-    img {
-        width: 100%;
-    }
-
-    .bottom {
-        display: none
-    }
-
-}
-
-
-
 /* Overview page */
 
 /* banner image and text */
@@ -382,11 +338,11 @@ footer {
 /* details and summary style for races */
 
 details {
-    padding: 20px;
-    text-align: center;
+    padding-top: 20px;
+    text-align: left;
 }
 
-details > summary {
+details>summary {
     list-style: none;
 }
 
@@ -571,9 +527,71 @@ input[type=submit]:hover {
     clear: both;
 }
 
-/* media query */
+/* media queries - reactive design*/
+
+
+
+/* media query for 1024px */
+
+@media (max-width: 1024px) {
+    .container {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .img-container {
+        text-align: center;
+    }
+
+}
+
+/* media query for mobile */
 
 @media (max-width: 768px) {
+
+
+    /* navigation menu for mobile */
+
+
+
+    /* Hero image for mobile */
+
+    .content-container {
+        position: relative;
+        top: 60%;
+    }
+
+    .adv-button span {
+        position: inherit;
+        width: 100%;
+    }
+
+    .container {
+        display: block;
+        margin: 0;
+        padding: 0;
+
+        text-align: center;
+    }
+
+    .column-container {
+        display: block;
+    }
+
+    .features-column {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .bottom {
+        display: none
+    }
 
     .col-25,
     .col-75,
@@ -581,4 +599,5 @@ input[type=submit]:hover {
         width: 100%;
         margin-top: 0;
     }
+
 }
