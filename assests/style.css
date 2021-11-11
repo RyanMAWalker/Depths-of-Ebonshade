@@ -379,6 +379,17 @@ footer {
     z-index: -1;
 }
 
+/* details and summary style for races */
+
+details {
+    padding: 20px;
+    text-align: center;
+}
+
+details > summary {
+    list-style: none;
+}
+
 
 /* popup windows for class description */
 
