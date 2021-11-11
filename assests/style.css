@@ -94,6 +94,8 @@ h2 {
     border: none;
     width: 100%;
 
+    vertical-align: middle;
+
 
     background-color: rgba(102, 0, 0, 0.7);
 
@@ -250,6 +252,8 @@ h2 {
 
     text-transform: uppercase;
     font-size: 100%;
+    text-decoration: none;
+    letter-spacing: 2px;
 }
 
 .btn:hover {
