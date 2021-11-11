@@ -60,6 +60,9 @@ The Depths of Ebonshade is a site to provide all information regarding the Dunge
 To produce a basic mockup of the site layouts I used Balsamiq. 
 
 * [Home page wireframe](assests/wireframes/homepage-wireframe.png)
+* [Overview page wireframe](assests/wireframes/overview-wireframe.png)
+* [Character Creation page wire frame](assests/wireframes/charactercreation-wireframe.png)
+* [Contact page wire frame](assests/wireframes/contact-wireframe.png)
 
 ### Design
 
