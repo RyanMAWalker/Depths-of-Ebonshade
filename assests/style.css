@@ -460,7 +460,7 @@ footer {
 
 }
 
-/* further inforamtion page */
+/* contact page */
 
 #contact-banner {
     height: 40vh;
@@ -473,19 +473,31 @@ footer {
     z-index: -1;
 }
 
+.community {
+    margin-top: 40px;
+}
+
+#community {
+    padding: 20px;
+}
+
 /* contact form */
 
 /* container styling */
 
 .contact-container {
-    width: 100%;
+    width: 60%;
     height: fit-content;
 
+    align-items: center;
     box-sizing: border-box;
     border: 2px solid #FFFFFF;
 
+    margin-top: 50px;
+    margin-left: 20%;
+
     padding: 20px;
-    background-color: rgba(53, 57, 53); 
+    background-color: rgba(53, 57, 53);
 
 }
 
