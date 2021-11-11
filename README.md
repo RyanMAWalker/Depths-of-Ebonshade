@@ -57,6 +57,9 @@ The Depths of Ebonshade is a site to provide all information regarding the Dunge
 
 
 ### Wireframe mockups
+To produce a basic mockup of the site layouts I used Balsamiq. 
+
+* [Home page wireframe](assests/wireframes/homepage-wireframe.png)
 
 ### Design
 
