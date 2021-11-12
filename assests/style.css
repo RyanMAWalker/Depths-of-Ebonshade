@@ -28,12 +28,12 @@ hr {
 
 /* headings and logo */
 
-h1,
-h2 {
+h1, h2 {
     font-family: 'Baskervville', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
 
 #logo {
     float: left;
@@ -69,11 +69,11 @@ h2 {
     left: 12%;
     width: 100%;
     max-width: 350px;
+    font-family: 'Baskervville', sans-serif;
 }
 
 .content {
     text-align: center;
-    font-family: 'Baskervville', sans-serif;
 }
 
 .content h1 {
@@ -150,6 +150,7 @@ h2 {
     top: 0;
     width: 100%;
     background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #menu {
@@ -190,6 +191,26 @@ h2 {
     margin: 0px 200px;
     padding: 10px 0px;
     background-color: black;
+}
+
+.container h1 {
+    font-size: 200%; 
+    font-family: 'Baskervville', serif;
+}
+
+.container h2 {
+    font-size: 180%;
+    font-family: 'Baskervville', serif;
+}
+
+.container h3 {
+    font-size: 150%;
+}
+
+.container p {
+    font-size: 120%;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 .container, h1, h2, h3 {
@@ -360,12 +381,13 @@ footer {
 
 details {
     padding: 20px 20px;
-    text-align: left;
+    text-align: center;
     position: in;
 }
 
 details summary > * {
     display: inline;
+    text-align: left;
 }
 
 .ability-list li {
@@ -373,6 +395,7 @@ details summary > * {
     list-style-type: none;
     padding-left: 20px;
     padding-top: 8px;
+    font-size: 120%;
 }
 
 
@@ -621,7 +644,6 @@ input[type=submit]:hover {
         display: block;
         margin: 0;
         padding: 0;
-
         text-align: center;
     }
 
