@@ -601,3 +601,38 @@ input[type=submit]:hover {
     }
 
 }
+
+@media (max-width: 600px) {
+    
+    /* Navigation bar for mobile */
+
+    #menu {
+        font-size: 100%;
+        float: none;
+        margin-left: 50px;
+    }
+
+    #menu, #logo {
+        line-height: 4vh;
+        margin-top: 10px;
+    }
+
+    #logo {
+        font-size: 180%;
+        
+    }
+
+    .content-container {
+        left: 0%;
+        max-width: 95%;
+        text-align: center;
+        font-size: 80%;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    #logo {
+        margin-top: 20px;
+    }
