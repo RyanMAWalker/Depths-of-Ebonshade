@@ -66,4 +66,6 @@ To produce a basic mockup of the site layouts I used Balsamiq.
 
 ### Design
 
+Following the overall structure of the wireframes being established, I fire set out to create an image collage 
+
 
