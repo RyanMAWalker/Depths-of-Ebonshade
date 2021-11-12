@@ -195,10 +195,12 @@ h2 {
 .container, h1, h2, h3 {
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .container p {
     text-align: left;
+    padding: 20px 20px;
 }
 
 /* Containers for home page */
@@ -357,14 +359,21 @@ footer {
 /* details and summary style for races */
 
 details {
-    padding-top: 20px;
+    padding: 20px 20px;
     text-align: left;
+    position: in;
 }
 
-details>summary {
-    list-style: none;
+details summary > * {
+    display: inline;
 }
 
+.ability-list li {
+    text-align: left;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 8px;
+}
 
 /* popup windows for class description */
 
