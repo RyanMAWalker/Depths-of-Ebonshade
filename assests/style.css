@@ -166,7 +166,7 @@ h2 {
     text-align: right;
     display: inline;
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 #menu a {
@@ -213,8 +213,7 @@ h2 {
 .features-column {
     position: relative;
     width: 50%;
-    overflow: hidden;
-    padding: 0 20px;
+    overflow: hidden;    
 }
 
 .features-column h2 {
@@ -229,7 +228,7 @@ h2 {
 
 .left {
     float: left;
-    padding: 0 20px 0 0;
+    width: 100%;
     height: 250px;
 }
 
@@ -242,6 +241,7 @@ h2 {
 
 .features-spacing {
     margin-top: 250px;
+    padding-top: 5px;
 }
 
 /* Learn more button styling */
@@ -349,7 +349,7 @@ footer {
     height: 40vh;
     width: 100%;
 
-    background: url(../assests/images/shutterstock_1985983379\ \(4\)\ \(1\).jpg) no-repeat center top;
+    background: url(../assests/images/character-banner.jpg) no-repeat center top;
 
     margin-top: 8vh;
 
@@ -435,7 +435,7 @@ details summary > * {
 
 /* popup text styling */
 
-#popup-text>h3 {
+.popup-text>h3 {
     font-family: inherit;
     font-size: 250%;
     color: rgba(0 ,0 ,0);
@@ -447,7 +447,7 @@ details summary > * {
     letter-spacing: 1px;
 }
 
-#popup-text>p {
+.popup-text>p {
     font-family: inherit;
     font-size: 100%;
     color: rgba(0 ,0 ,0);
@@ -547,6 +547,14 @@ input[type=submit]:hover {
     float: left;
     width: 85%;
     margin-top: 6px;
+}
+
+.form-style, input, textarea {
+    color: black;
+}
+
+.form-style submit {
+    color: #FFFFFF;
 }
 
 /* Clear floats after the columns */
@@ -695,7 +703,8 @@ input[type=submit]:hover {
 @media (max-width: 435px) {
 
     #logo {
-        margin-top: 20px;
+        margin-top: 10px;
+        
     }
 
     #overview-banner, #character-banner, #contact-banner {
@@ -708,6 +717,11 @@ input[type=submit]:hover {
 
     #community {
         padding: 0;
+    }
+
+    #menu li {
+        margin-right: 5px;
+       
     }
 
 }
