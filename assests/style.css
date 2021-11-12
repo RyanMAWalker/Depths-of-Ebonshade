@@ -625,6 +625,7 @@ input[type=submit]:hover {
 
     #logo {
         font-size: 180%;
+        margin-top: 10px;
         
     }
 
@@ -637,11 +638,25 @@ input[type=submit]:hover {
         font-size: 80%;
     }
 
+    /* banner text */
+
+    #overview-banner, #character-banner, #contact-banner   {
+        margin-top: 4vh;
+    }
+
+    #banner-cover-text {
+        font-size: 100%;
+    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 435px) {
 
     #logo {
         margin-top: 20px;
     }
+
+    #overview-banner, #character-banner, #contact-banner {
+        margin-top: 8vh;
+    }
+
 }
