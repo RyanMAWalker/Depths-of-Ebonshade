@@ -65,7 +65,7 @@ h2 {
 
 .content-container {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 12%;
     width: 100%;
     max-width: 350px;
@@ -501,7 +501,7 @@ input[type=submit] {
     padding: 15px;
 
     cursor: pointer;
-    float: right;
+    
 }
 
 input[type=submit]:hover {
@@ -551,15 +551,18 @@ input[type=submit]:hover {
 @media (max-width: 768px) {
 
 
-    /* navigation menu for mobile */
-
-
-
-    /* Hero image for mobile */
+    
+    /* Hero image */
 
     .content-container {
         position: relative;
-        top: 60%;
+        top: 40%;
+        text-align: center;
+     }
+
+    .content-container h1 {
+        font-size: 250%;
+        width: 100%;
     }
 
     .adv-button span {
@@ -593,6 +596,9 @@ input[type=submit]:hover {
         display: none
     }
 
+
+    /* Contact form */
+
     .col-25,
     .col-75,
     input[type=submit] {
@@ -622,6 +628,8 @@ input[type=submit]:hover {
         
     }
 
+    /* hero image container */
+
     .content-container {
         left: 0%;
         max-width: 95%;
@@ -636,3 +644,4 @@ input[type=submit]:hover {
     #logo {
         margin-top: 20px;
     }
+}
