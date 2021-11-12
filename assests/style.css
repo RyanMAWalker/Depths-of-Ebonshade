@@ -205,6 +205,8 @@ h1, h2 {
 
 .container h3 {
     font-size: 150%;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 .container p {
@@ -616,12 +618,38 @@ input[type=submit]:hover {
 
 }
 
-/* media query for mobile */
+/* media query for 768px */
 
 @media (max-width: 768px) {
 
 
+    /* font styling */ 
+
+    .container h1 {
+        font-size: 180%; 
+        font-family: 'Baskervville', serif;
+    }
     
+    .container h2 {
+        font-size: 160%;
+        font-family: 'Baskervville', serif;
+    }
+    
+    .container h3 {
+        font-size: 130%;
+        font-family: 'Source Sans Pro', sans-serif;
+    
+    }
+    
+    .container p {
+        font-size: 100%;
+        font-family: 'Source Sans Pro', sans-serif;
+    
+    }
+
+    .ability-list li {
+        font-size: 100%;
+    }
     /* Hero image */
 
     .content-container {
