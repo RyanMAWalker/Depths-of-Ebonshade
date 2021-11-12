@@ -271,6 +271,10 @@ h2 {
     opacity: 1;
 }
 
+.btn h3 {
+    margin: 0;
+}
+
 /* footer */
 
 footer {
@@ -317,7 +321,7 @@ footer {
 
 #banner-cover-text {
     position: absolute;
-    top: 30%;
+    top: 28%;
     left: 5%;
     max-width: 700px;
 
@@ -553,6 +557,10 @@ input[type=submit]:hover {
         display: block;
         margin: 0;
         padding: 0;
+    }
+
+    .container, h2 {
+        text-align: center;
     }
 
     .img-container {
