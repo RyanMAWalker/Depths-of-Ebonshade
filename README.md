@@ -283,9 +283,9 @@ Physical testing by myself was carried out with the following devices:
     ![Desktop Report](assests/media/lighthouse-report.png)
 
     - See below for mobile generated report through the google extension lighthouse
-    - I was able to improve performance to 80% on mobile devices.
+    - I was able to improve performance to 80% on mobile devices, with the only way to increase perfomance is "Serve static assets with an efficient cache policy"
 
-    ![Lighthouse report for mobile](assests/media/increase-mobile.png)
+    ![Lighthouse report for mobile](assests/media/final-mobile.png)
 
 <h1 align="center">Deployment</h1>
 
