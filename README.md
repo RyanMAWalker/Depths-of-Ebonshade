@@ -273,7 +273,22 @@ Physical testing by myself was carried out with the following devices:
     - The inital report came back clear with one error regarding an image containers in my nav bar which  didn't have description. Resolved issues report below:
     ![Lighthouse report for desktop](assests/media/lighthouse report.png)
 
-    -See below for mobile generated report 
+    - See below for mobile generated report through the google extension lighthouse
+    - Performance and best practice 
+    ![Lighthouse report for mobile](assests/media/mobile-report-2.png)
+
+<h1 align="center">Deployment</h1>
+
+I Deployed the page on GitHub pages via the following procedure:
+* From the project repository got to settings.
+* Scroll down to the bottom of the page, underneath GitHub Pages is a link to it's own dedicated tab. Or alternatively select Pages from the menu of the left hand side.
+* Under the Source click the drop down menu, select main and click save.
+* A message will appear to show sucessful deployment and a link will appear as shown below.
+![Example deployment link image](assests/media/example github.png)
+
+To access the live site click the following link - [Depths of Ebonshade live site](https://ryanmawalker.github.io/Depths-of-Ebonshade/)
+
+
 
 
 
