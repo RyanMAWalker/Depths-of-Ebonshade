@@ -524,7 +524,7 @@ details summary>* {
     margin-left: 20%;
 
     padding: 20px;
-    background-color: rgba(53, 57, 53);
+    background-color: black;
 
 }
 
@@ -550,10 +550,12 @@ input[type=submit] {
     display: inline-block;
     border-radius: 4px;
     border: none;
-    width: inherit;
+    width: 20%;
+    float: right;
 
 
     background-color: rgba(102, 0, 0, 0.7);
+    color: #FFFFFF;
 
     text-align: center;
     font-size: 150%;
@@ -623,6 +625,7 @@ textarea {
     .contact-container {
         width: 80%;
         margin-left: 10%;
+        background-color: black;
     }
 
 }
