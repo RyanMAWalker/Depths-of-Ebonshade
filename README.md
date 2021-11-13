@@ -95,7 +95,7 @@ To give a container contrast for the main body of text I used a grey background 
 
 ## Common Features
 
-* Navigation Bar
+* ### Navigation Bar
 
     - The navigation bar is common across the whole site appearing on all 4 pages.
     - The navigation bar contains links to the home page, campaign, character creation and contact page to give the user simple navigation around the website.
@@ -107,20 +107,20 @@ To give a container contrast for the main body of text I used a grey background 
 
     ![Navigation bar](assests/media/ux-changes/nabar.png)
 
-* Footer 
+* ### Footer 
 
     - The footer section is common to every page across the site, the footer includes links to each social media platform, currently all these links send you straight to the main social media page as this campaign is yet to be added to these platforms excluding the discord link. The discord link sends you an invite to a server I set up.
     - The link items were imported using font awesome using the script at the bottom of the page. 
     - Included is a copyright notice including my name.
 
-* Banner Title Card
+* ### Banner Title Card
 
     - The banner card is common to every page but the home page, this is to keep a consistant theme that is contrasted by the changing banner photos. The banner card is shown below.
     - The banner card is fully responsive with moblie devices as an issue arised with it overlapping the main body of text on each page. 
 
     ![Banner Card](assests/media/ux-changes/banner-card.png)
 
-* Text Container
+* ### Text Container
 
     - Each page's body of text is incased in this container it ensures the design remains consistent across the site.
     - This is made fully responsive where at 1024px the container expands to the full page width prevent the text from looking squashed in. 
@@ -129,6 +129,60 @@ To give a container contrast for the main body of text I used a grey background 
     * [Container with media query](assests/media/container-with-med.png)
 
 ## Home Page Features
+
+*    ### Hero Image 
+        - The home page has a hero image to width and height of the full scrren. As previously stated in the design section this is to draw the user in.
+        - The hero image is fully responsive so the figure in the image remains center of the screen at all time. 
+        - The hero image contains the title of the website which is contained within a fully responsive div element, this changes position and font size dependant on screen width.
+        - The hero image as contains an interactive button which animates when hovered over or clicked, this is also fully responsive and caused an interesting bug which will be addressed in the bug section of this document.
+
+![Hero Image](assests/media/hero-image-read.png)
+
+* ### Home Page Information Section
+    - Taking inspiration from the [call of duty vanguard website](https://www.callofduty.com/content/atvi/callofduty/vanguard/web/en_gb/home.html), the sections of text have been separated and style in 4 separate divs to control the position and stagger the text. 
+    - Images that correlate to the banner of each page sit above their related counter part e.g. the warrior holding a torch is above "Story" the banner for the Story section is that image.
+    - Learn more buttons have been added which light up when hovered over and are linked to the id of the specific section directing the user to specific sections of the site.
+    - The sections are responsive under both the 1024px media query and at 768px where the sections sit one on top of the over giving a clean user interface the difference can be seen in the links below..
+    - [Home page full screen](assests/media/homepage-section.png)
+    - [Home page responsive](assests/media/homepage-768px.png)
+
+## Campaign Features
+* ### Page Content 
+    - The main section of the campagin page is to give the user digestable information and to give a teaser to the campaign story.
+    - The main section also includes information for DMs looking to branch into horror with a summary of information and links to external resources. 
+
+![Snippet of compaign section](assests/media/Campaign-section.png)
+
+## Character Creation Features
+The purpose of this page was to be more interactive by distributing quite a lot of information in an engaging manor, for this there is a combination of drop down menus and pop-ups that the user can easily use to get the exact information they want. The purpose of this is for site retention by producing a page that has links to the external material and a more compact breakdown of the roles it becomes more convinent to visit this webpage.
+* ### Inital Section
+    - The inital section introduces the key feature of the capaign and give an overview of available character parameters.
+    - The inital section also includes likes to the official race and class guides which are the foundations for the ones related to the campaign. 
+* ### Races Section 
+    - The layout is organised into a series of drop down menus using the details and summary function of CSS This gives the user the option to have just the specific information they require as opposed to an undigestable amount of text on the screen. 
+    ![drop down menu evidence](assests/media/dropdown.png)
+    - The details and summary elements were checked using the site [caniuse.com](https://caniuse.com/?search=details%26summary) to which it is supported by 97.4% of gobal users. 
+    ![Can I Use Evidence](assests/media/caniuse.png)
+
+* ### Classes Section 
+    - Individual interactive images are used to represent each class allowing users to click on each image to reveal the description. 
+    ![Class Image Layout](assests/media/classes.png)
+    - A seperate interface opens changing the opacity of the background bringing full attention to the text container. When the window is closed using the close window button the user is returned to the exact same position they were previously on, the page.  
+    ![Class Image Popup](assests/media/classes-popup.png)
+    - The images and popups are fully responsive as shown in the images below.
+    - The screen width has been lowered to 1277px for the first image.
+    ![Lower Screen width for Class Images](assests/media/class-responsive-1.png)
+    - The screen width has been lowered to 375px (iPhoneX width) for the second image.
+    ![Mobile Screen width for Class Images](assests/media/class-responsive-2.png)
+    - The screen width is at 375px to show the popup window is responsive for the third image.
+    ![Mobile Screen width for Popup](assests/media/class-responsive-3.png)
+
+
+
+
+
+
+
 
 
 
