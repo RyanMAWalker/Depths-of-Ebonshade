@@ -55,7 +55,7 @@ h2 {
     height: 100vh;
     max-width: 100%;
 
-    position: realtive;
+    
     display: block;
 
     background-size: cover;
@@ -391,7 +391,6 @@ p {
 details {
     padding: 20px 20px;
     text-align: center;
-    position: in;
 }
 
 details summary>* {
