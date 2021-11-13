@@ -260,7 +260,16 @@ Physical testing by myself was carried out with the following devices:
         - Second error was reusing IDs of the same value, where possible these were changed to classes and others the IDs where numerically changed. 
 
     - Final validation testing where no errors occured.
-        - [Home Page]()
+        - [Home Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fryanmawalker.github.io%2FDepths-of-Ebonshade%2Findex.html)
+        - [Campaign Overview Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fryanmawalker.github.io%2FDepths-of-Ebonshade%2Foverview.html)
+        - [Character Creation Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fryanmawalker.github.io%2FDepths-of-Ebonshade%2Fcharacter-creation.html)
+        - [Contact Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fryanmawalker.github.io%2FDepths-of-Ebonshade%2Fcontact.html)
+
+* ## CSS 
+    - No errors were returned when using the [CCS Validator link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fryanmawalker.github.io%2FDepths-of-Ebonshade%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+* ## Lighthouse
+
 
 
 
