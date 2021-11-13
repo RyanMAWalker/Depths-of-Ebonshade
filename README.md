@@ -271,10 +271,12 @@ Physical testing by myself was carried out with the following devices:
 * ## Lighthouse
     - I generated a lighthouse report for the deployed site through the google extension. 
     - The inital report came back clear with one error regarding an image containers in my nav bar which  didn't have description. Resolved issues report below:
-    ![Lighthouse report for desktop](assests/media/lighthouse report.png)
+
+    ![Desktop Report](assests/media/lighthouse-report.png)
 
     - See below for mobile generated report through the google extension lighthouse
     - Performance and best practice 
+
     ![Lighthouse report for mobile](assests/media/mobile-report-2.png)
 
 <h1 align="center">Deployment</h1>
@@ -287,6 +289,42 @@ I Deployed the page on GitHub pages via the following procedure:
 ![Example deployment link image](assests/media/example github.png)
 
 To access the live site click the following link - [Depths of Ebonshade live site](https://ryanmawalker.github.io/Depths-of-Ebonshade/)
+
+
+<h1 align="center">Credits</h1>
+
+### Content
+
+* The learn more buttons were adapted from the following [stackoverflow article](https://stackoverflow.com/questions/17375708/how-to-create-an-html-button-that-acts-like-a-link-to-an-item-on-the-same-page)
+* The collapsable class menus were inspired by the top comment on this [stackoverflow article](https://stackoverflow.com/questions/15095933/pure-css-collapse-expand-div/38905720)
+* The popup class boxes were adapted from [CodeShack](https://codeshack.io/pure-css3-modal-example/)
+* The popup box fix adapted from the following [stackoverflow article](https://stackoverflow.com/questions/37178728/css-popup-jumps-back-to-top-of-page-when-closed)
+* The responsive form was adapted from [W3Schools](https://www.w3schools.com/howto/howto_css_responsive_form.asp)
+* The Races and classes we adapted from dndbeyond [Classes](https://www.dndbeyond.com/classes), [Races](https://www.dndbeyond.com/races). The text for all other pages was written by me. 
+* The Icon and navbar were adapted from the Code Institute lessons.
+* All Fonts imported from [Google Fonts](https://fonts.google.com/)
+* As a general reference material [W3Schools](https://www.w3schools.com/) was used.
+* As reference for my README and general project layout I was provided a link to MattBCoding [leinster-trophy](https://github.com/MattBCoding/leinster-trophy)
+
+### Media
+* The d20 icon use for the logo taken from [Font Awesome](https://fontawesome.com/v5.15/icons/dice-d20?style=solid)
+* All images used on the webpage were from [Shutterstock](https://www.shutterstock.com/collections/305116529-f270b672)
+* Media links used in the article send to the orignal source which were [Soundcloud](https://soundcloud.com/timkuligfreemusic) and [YouTube](https://www.youtube.com/).
+
+### Mentions 
+
+This project wouldn't have been to the standard is currently is without many people helping to test it and support me.
+
+* Rahul Lakhanpal - My project mentor, he has guided me through this project supplying great sources of information and clearly communicate to me how to get myself unstuck. 
+
+* Thomas Freeman - Close Personal friend, who helped me solve UI issues and test the website.
+
+* Harry Pearson - Close Personal friend, who helped me solve through issues in my html, CSS and taught me how to effeciently use inspect element. 
+
+* Harry Champman - Close Personal friend, who proof read my site and pointed out a considerable amount of grammatical errors.
+
+* Emanuel Silva - Who has helped me into the early hours of the morning when I was having a deployment issue with my code.
+
 
 
 
