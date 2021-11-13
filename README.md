@@ -235,6 +235,25 @@ I carried out continuous testing as the site was being developed. Once a git com
 * Issue 2: The whole homepage was being offset to the left once the screen width was shrunk to <600px leaving a continuous bar on the right of the page that increased in size while pushing the content to the left of the page. 
 * Soloution: Interestingly I haven't been able to recreate this bug I inspected the element and saw that the container my animated button was in ignored the boundary set by the container above that, by removing the float property and adjusting the padding and width of the containers affecting the button the content now remains in the correct place. 
 
+Once I believed the site to be complete I shared it amongst friends and family to get a large sample size of different devices to find out any issues encoutered or anything they didn't like from a user perspective, the messages can be seen below and I have been given permission to shared then in the context the chat and names are covered. 
+
+* [Feedback 1](assests/media/ux-changes/messenger-feedback1.png)
+* [Feedback 2](assests/media/ux-changes/messenger-feedback2.png)
+
+Additional testing carried out using the chrome developer tools was to keep dragging the resolution across to find breakpoints where sections would overlap or spacing issues, a regular occurence from this was linehieghts and margin spacing, to overcome this instead of using pixels to determine heights and widths I used percentages or viewport heights where required.
+
+Physical testing by myself was carried out with the following devices:
+* Desktop Computer: 1920 x 1080 & 1280 x 720
+    - Mozilla Firefox
+    - Google Chrome
+* Microsoft Surface Pro 2: 1920 x 1080
+    - Google Chrome
+* iPhone XR: 828 x 1792
+    - Safari
+
+
+<h1 align="center">Validator Testing</h1>
+
 
 
 
