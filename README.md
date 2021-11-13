@@ -65,7 +65,7 @@ To produce a basic mockup of the site layouts I used Balsamiq.
 * [Character Creation page wire frame](assests/wireframes/charactercreation-wireframe.png)
 * [Contact page wire frame](assests/wireframes/contact-wireframe.png)
 
-There were necessary deviations from the wireframe regarding copyright concerns, initally I had aimed to include a free soundcloud track that users could interact with an listen however looking further into Soundclouds copyright terms and coditions I was unsure if this would be fair use so have instead removed it and kept a clickable link that sends you straight to the soundcloud album and user as this information is important to the user, as is the case with the youtube video by How to be a Great DM. 
+There were necessary deviations from the wireframe regarding copyright concerns, initally I had aimed to include a youtube video that users could interact with and watch however looking further into YouTubes copyright terms and coditions I was unsure if this would be fair use so have instead removed it and kept a clickable link that sends you straight to the youtube video by How to be a Great DM. 
 
 * [Original Soundcloud Interact](assests/media/ux-changes/soundcloud-issue.png)
 * [UX of Soundcloud and Youtube link](assests/media/ux-changes/link-only.png)
@@ -276,7 +276,7 @@ Physical testing by myself was carried out with the following devices:
     ![Desktop Report](assests/media/lighthouse-report.png)
 
     - See below for mobile generated report through the google extension lighthouse
-    - I was able to improve performance by 1% via ajusting the image widths to be to fit giving 90% performance score.
+    - I was able to improve performance to 80% on mobile devices.
 
     ![Lighthouse report for mobile](assests/media/increase-mobile.png)
 
