@@ -5,10 +5,10 @@ The Depths of Ebonshade is a site to provide all information regarding the Dunge
 
 [View the live project here.](add link to completed project)
 
+![Am I Responsive UX](assests/media/homepage-ux.png)
 
-<h2 align="center"><img src="assests/media/homepage-ux.png"></h2>
 
-## User Experience (UX)
+<h1 align="center">User Experience (UX)</h1>
 
 -   ### User Stories
 
@@ -91,7 +91,8 @@ To give a container contrast for the main body of text I used a grey background 
 * [Previous Grey container](assests/media/ux-changes/grey-container.png)
 * [Final Black container](assests/media/ux-changes/black-container.png)
 
-<h2 align="center">Features</h2>
+<h1 align="center">Features</h1>
+
 
 ## Common Features
 
@@ -176,6 +177,23 @@ The purpose of this page was to be more interactive by distributing quite a lot 
     ![Mobile Screen width for Class Images](assests/media/class-responsive-2.png)
     - The screen width is at 375px to show the popup window is responsive for the third image.
     ![Mobile Screen width for Popup](assests/media/class-responsive-3.png)
+
+## Contact Page Features
+
+* ### Community Section
+    - This section is to highlight the community aspect of the campaign and encourage users by highlighting the discord. The discord is referred to on the Main page and in each footer to achieve to goal of users returning to the site or remaining engaged with the content. 
+    ![Join the Community Image](assests/media/community.png)
+    - The contact form gives users the ability to contact the campaign creators for a copy of the campaign or any queries. The user is asked for full name, last name, email address and message which are all required fields.
+    ![Contact Form Image](assests/media/contact.png)
+
+<h1 align="center">Future-Enhancements</h1>
+
+The future intention of this webpage would be to enable users to create their own characters using the webpage, share stories or images of themselves enjoying the campaign to build a bigger community.
+There's currently a lack of horror themed Dungeons and Dragons campaigns and the future goal would be to produce more campaigns which would be showcased on the website. 
+
+* First would to improve the website design further
+
+
 
 
 

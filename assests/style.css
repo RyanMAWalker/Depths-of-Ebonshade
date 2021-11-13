@@ -528,6 +528,14 @@ details summary>* {
 
 }
 
+.contact-container h2 {
+    font-size: 180%;
+}
+
+.contact-container p {
+    font-size: 120%;
+}
+
 /* input style */
 
 input[type=text],
@@ -708,6 +716,20 @@ textarea {
 
 
     /* Contact form */
+
+    .contact-container {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .contact-container h2 {
+        font-size: 160%;
+    }
+    
+    .contact-container p {
+        font-size: 100%;
+    }
+    
 
     .col-25,
     .col-75,
