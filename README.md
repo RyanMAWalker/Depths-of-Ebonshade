@@ -3,7 +3,6 @@
 ## Introduction
 The Depths of Ebonshade is a site to provide all information regarding the Dungeons and Dragons campign "The Depths of Ebonshade". The site is targeted towards people who want to experience more of the niche horror Dungeons and Dragons can provide. The site will also provide additional information for any aspiring DMs who are getting into leading horror campaigns.
 
-[View the live project here.](add link to completed project)
 
 ![Am I Responsive UX](assests/media/homepage-ux.png)
 
