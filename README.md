@@ -161,29 +161,44 @@ The purpose of this page was to be more interactive by distributing quite a lot 
     - The inital section also includes likes to the official race and class guides which are the foundations for the ones related to the campaign. 
 * ### Races Section 
     - The layout is organised into a series of drop down menus using the details and summary function of CSS This gives the user the option to have just the specific information they require as opposed to an undigestable amount of text on the screen. 
+
     ![drop down menu evidence](assests/media/dropdown.png)
+
     - The details and summary elements were checked using the site [caniuse.com](https://caniuse.com/?search=details%26summary) to which it is supported by 97.4% of gobal users. 
+
     ![Can I Use Evidence](assests/media/caniuse.png)
 
 * ### Classes Section 
-    - Individual interactive images are used to represent each class allowing users to click on each image to reveal the description. 
+    - Individual interactive images are used to represent each class allowing users to click on each image to reveal the description.
+
     ![Class Image Layout](assests/media/classes.png)
+
     - A seperate interface opens changing the opacity of the background bringing full attention to the text container. When the window is closed using the close window button the user is returned to the exact same position they were previously on, the page.  
+
     ![Class Image Popup](assests/media/classes-popup.png)
+
     - The images and popups are fully responsive as shown in the images below.
     - The screen width has been lowered to 1277px for the first image.
+
     ![Lower Screen width for Class Images](assests/media/class-responsive-1.png)
+
     - The screen width has been lowered to 375px (iPhoneX width) for the second image.
+
     ![Mobile Screen width for Class Images](assests/media/class-responsive-2.png)
+
     - The screen width is at 375px to show the popup window is responsive for the third image.
+
     ![Mobile Screen width for Popup](assests/media/class-responsive-3.png)
 
 ## Contact Page Features
 
 * ### Community Section
-    - This section is to highlight the community aspect of the campaign and encourage users by highlighting the discord. The discord is referred to on the Main page and in each footer to achieve to goal of users returning to the site or remaining engaged with the content. 
+    - This section is to highlight the community aspect of the campaign and encourage users by highlighting the discord. The discord is referred to on the Main page and in each footer to achieve to goal of users returning to the site or remaining engaged with the content.
+
     ![Join the Community Image](assests/media/community.png)
+
     - The contact form gives users the ability to contact the campaign creators for a copy of the campaign or any queries. The user is asked for full name, last name, email address and message which are all required fields.
+
     ![Contact Form Image](assests/media/contact.png)
 
 <h1 align="center">Future-Enhancements</h1>
@@ -205,6 +220,20 @@ The future intention of this webpage would be to enable users to create their ow
 
 * Long term:
     - The long term goal of the website is to gian enough traffic where the homepage can advertise multiple campaigns where the users can select a campaign they like the look off be able to generate a new character or have their current one modified (if required to suit) and download a copy of the campaign. 
+
+
+<h1 align="center">Testing</h1>
+
+I carried out continuous testing as the site was being developed. Once a git commit was carried out I would then test the site using chrome dev tools. This in theory allowed me to confirm the styling was being applied correctly however, I had ignored to test for responsive design until midway through the development cycle resulting in many interactions not working as intended and required serveral fixes, the more interesting fixes shown below. 
+
+* Issue 1: Popup for classes snapping to the top of the page what the window was closed. 
+   - [Faulty code](assests/images/codefixes/issue-1.1.png)
+   - [Image of Fault 1](assests/images/codefixes/issue-1.2.png)
+   - [Image of Fault 2](assests/images/codefixes/issue-1.3.png)
+* Solution: The href being "#" was forcing the view to return to the top of the page, by giving both href and the anchor tage an id to return back to the screen remains in place.
+
+* Issue 2: The whole homepage was being offset to the left once the screen width was shrunk to <600px leaving a continuous bar on the right of the page that increased in size while pushing the content to the left of the page. 
+* Soloution: Interestingly I haven't been able to recreate this bug I inspected the element and saw that the container my animated button was in ignored the boundary set by the container above that, by removing the float property and adjusting the padding and width of the containers affecting the button the content now remains in the correct place. 
 
 
 
