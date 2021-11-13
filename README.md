@@ -189,9 +189,26 @@ The purpose of this page was to be more interactive by distributing quite a lot 
 <h1 align="center">Future-Enhancements</h1>
 
 The future intention of this webpage would be to enable users to create their own characters using the webpage, share stories or images of themselves enjoying the campaign to build a bigger community.
-There's currently a lack of horror themed Dungeons and Dragons campaigns and the future goal would be to produce more campaigns which would be showcased on the website. 
 
-* First would to improve the website design further
+- ### Future Goals:
+
+* Website design and layout: 
+    - Addition of more images or fanart to break up the campaign section. 
+    - Addition of the linked youtube video and soundcloud to the website, this would required a response from the current creators. 
+    - Seperate the contact form into another webpage and have a dedicated community page which would display fanart or community events. 
+    - Add the remaining races and classes from the basic free to use D&D 5e adventure book.
+
+* Functionality:
+    - Introduce a section where users can propose new races or classes via a submission form which would then link to a database.
+    - Introduce a section as part of the character creation that allows users to input a desired character name chose from a drop down menu their class and race. The site would take that input to randomly generate the numbers for the stats on a character sheet taking into account the users chosen race/class and produce and downloaded character sheet. 
+    - Feedback section, where users can share difficulties in the campaign which is then logged into a database that can correlate responses to show where sections of the campaign requires rebalancing. 
+
+* Long term:
+    - The long term goal of the website is to gian enough traffic where the homepage can advertise multiple campaigns where the users can select a campaign they like the look off be able to generate a new character or have their current one modified (if required to suit) and download a copy of the campaign. 
+
+
+
+
 
 
 
