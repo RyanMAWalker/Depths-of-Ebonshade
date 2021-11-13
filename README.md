@@ -270,7 +270,7 @@ Physical testing by myself was carried out with the following devices:
 
 * ## Lighthouse
     - I generated a lighthouse report for the deployed site through the google extension. 
-    - The inital report came back clear with 
+    - The inital report came back clear with one error regarding an image conta
 
 
 
