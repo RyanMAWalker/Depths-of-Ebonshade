@@ -270,7 +270,10 @@ Physical testing by myself was carried out with the following devices:
 
 * ## Lighthouse
     - I generated a lighthouse report for the deployed site through the google extension. 
-    - The inital report came back clear with one error regarding an image conta
+    - The inital report came back clear with one error regarding an image containers in my nav bar which  didn't have description. Resolved issues report below:
+    ![Lighthouse report for desktop](assests/media/lighthouse report.png)
+
+    -See below for mobile generated report 
 
 
 
