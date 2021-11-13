@@ -269,7 +269,7 @@ Physical testing by myself was carried out with the following devices:
     - No errors were returned when using the [CCS Validator link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fryanmawalker.github.io%2FDepths-of-Ebonshade%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 * ## Lighthouse
-
+    - I generated a lighthouse report for the deployed site through the google extension. 
 
 
 
