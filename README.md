@@ -254,7 +254,13 @@ Physical testing by myself was carried out with the following devices:
 
 <h1 align="center">Validator Testing</h1>
 
+* ## HTML 
+    - Two re-occurring errors came up when initally validating.
+        - [First Error](assests/media/error.png) which was fixed by removing the achor tag as it was unecessary with the set ID, this error I requested help from slack. 
+        - Second error was reusing IDs of the same value, where possible these were changed to classes and others the IDs where numerically changed. 
 
+    - Final validation testing where no errors occured.
+        - [Home Page]()
 
 
 
