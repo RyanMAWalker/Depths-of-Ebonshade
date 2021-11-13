@@ -155,6 +155,13 @@ To give a container contrast for the main body of text I used a grey background 
 
 ![Snippet of compaign section](assests/media/Campaign-section.png)
 
+* ### Soundcloud Player
+    - The interactive soundcloud player at the foot of the page is fully responsive with links to the artist placed above.
+
+    ![Soundcloud player](assests/media/soundcloud.png)
+
+    ![Responsive Soundcloud player](assests/media/responsive-soundclound.png)
+
 ## Character Creation Features
 The purpose of this page was to be more interactive by distributing quite a lot of information in an engaging manor, for this there is a combination of drop down menus and pop-ups that the user can easily use to get the exact information they want. The purpose of this is for site retention by producing a page that has links to the external material and a more compact breakdown of the roles it becomes more convinent to visit this webpage.
 * ### Inital Section
