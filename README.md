@@ -7,6 +7,7 @@ The Depths of Ebonshade is a site to provide all information regarding the Dunge
 
 ![Am I Responsive UX](assests/media/homepage-ux.png)
 
+View the live website on GitHub [Depths of Ebonshade live site](https://ryanmawalker.github.io/Depths-of-Ebonshade/)
 
 <h1 align="center">User Experience (UX)</h1>
 
@@ -275,9 +276,9 @@ Physical testing by myself was carried out with the following devices:
     ![Desktop Report](assests/media/lighthouse-report.png)
 
     - See below for mobile generated report through the google extension lighthouse
-    - Performance and best practice 
+    - I was able to improve performance by 1% via ajusting the image widths to be to fit giving 90% performance score.
 
-    ![Lighthouse report for mobile](assests/media/mobile-report-2.png)
+    ![Lighthouse report for mobile](assests/media/increase-mobile.png)
 
 <h1 align="center">Deployment</h1>
 
