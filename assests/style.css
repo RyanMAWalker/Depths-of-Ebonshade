@@ -253,6 +253,10 @@ h3 {
     font-size: 120%;
 }
 
+.features-column img {
+    max-width: 520px;
+}
+
 .left {
     float: left;
     width: 100%;
